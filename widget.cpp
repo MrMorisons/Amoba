@@ -1,7 +1,8 @@
 #include "widget.hpp"
 
-widget::widget(int new_x,int new_y,int new_size_x,int new_size_y):x(new_x),y(new_y),size_x(new_size_x),size_y(new_size_y){
-    //ctor
+widget::widget(maistro* new_boss,int new_x,int new_y,int new_size_x,int new_size_y)
+            :boss(new_boss),x(new_x),y(new_y),size_x(new_size_x),size_y(new_size_y){
+    boss->register_widget(this);
 }
 
 bool widget::is_selected(event *ev){

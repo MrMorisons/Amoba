@@ -1,16 +1,22 @@
 #ifndef MAISTRO_HPP
 #define MAISTRO_HPP
 
+class widget;
+#include "graphics.hpp"
+#include <vector>
 
-class maistro
-{
-    public:
-        maistro();
-        virtual ~maistro();
+using namespace std;
+using namespace genv;
 
-    protected:
-
-    private:
+class maistro{
+protected:
+    vector<widget*> widgets;
+public:
+    maistro();
+    void event_loop();
+    void register_widget(widget*);
+    virtual void action(string)=0;
 };
+
 
 #endif // MAISTRO_HPP

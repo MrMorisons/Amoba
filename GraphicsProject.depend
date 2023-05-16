@@ -11,15 +11,19 @@
 	<string>
 	<vector>
 
-1684250466 source:d:\2021 prog házi\cpp\amoba\maistro.cpp
+1684255214 source:d:\2021 prog házi\cpp\amoba\maistro.cpp
 	"maistro.hpp"
-
-1684250466 d:\2021 prog házi\cpp\amoba\maistro.hpp
-
-1684250447 source:d:\2021 prog házi\cpp\amoba\widget.cpp
 	"widget.hpp"
 
-1684253461 d:\2021 prog házi\cpp\amoba\widget.hpp
+1684255024 d:\2021 prog házi\cpp\amoba\maistro.hpp
+	"graphics.hpp"
+	<vector>
+
+1684255247 source:d:\2021 prog házi\cpp\amoba\widget.cpp
+	"widget.hpp"
+
+1684255194 d:\2021 prog házi\cpp\amoba\widget.hpp
+	"maistro.hpp"
 	"graphics.hpp"
 	"vector"
 	"functional"
