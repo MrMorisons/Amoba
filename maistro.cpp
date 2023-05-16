@@ -1,7 +1,8 @@
 #include "maistro.hpp"
 #include "widget.hpp"
 
-maistro::maistro()
+
+maistro::maistro(int new_xx,int new_yy):xx(new_xx),yy(new_yy)
 {
 
 }
@@ -17,12 +18,12 @@ void maistro::event_loop(){
                     }
                 }
             }
-            if(ev.type == ev_key and ev.keycode==key_enter){
+            /*if(ev.type == ev_key and ev.keycode==key_enter){
                 action("Enter");
             }
             if(ev.type == ev_key and ev.keycode==key_space){
                 action("Space");
-            }
+            }*/
             if (focus!=-1) {
                 widgets[focus]->overlord(&ev);
             }

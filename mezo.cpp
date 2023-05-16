@@ -1,7 +1,7 @@
 #include "mezo.hpp"
 
-mezo::mezo(maistro* new_boss,int new_x, int new_y, int new_sx, int new_sy)
-    : widget(new_boss,new_x,new_y,new_sx,new_sy)
+mezo::mezo(maistro* new_boss,int new_x, int new_y, int new_sx, int new_sy,std::string new_name)
+    : widget(new_boss,new_x,new_y,new_sx,new_sy,new_name)
 {
     _checked=false;
 }

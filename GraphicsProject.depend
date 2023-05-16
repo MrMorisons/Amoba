@@ -4,25 +4,28 @@
 
 1684250498 d:\2021 prog házi\cpp\amoba\iustitia.hpp
 
-1684254174 source:d:\2021 prog házi\cpp\amoba\main.cpp
+1684263450 source:d:\2021 prog házi\cpp\amoba\main.cpp
 	"graphics.hpp"
+	"widget.hpp"
+	"maistro.hpp"
+	"star_menu.hpp"
 
 1618178770 d:\2021 prog házi\cpp\amoba\include\graphics.hpp
 	<string>
 	<vector>
 
-1684255214 source:d:\2021 prog házi\cpp\amoba\maistro.cpp
+1684265299 source:d:\2021 prog házi\cpp\amoba\maistro.cpp
 	"maistro.hpp"
 	"widget.hpp"
 
-1684255024 d:\2021 prog házi\cpp\amoba\maistro.hpp
+1684263432 d:\2021 prog házi\cpp\amoba\maistro.hpp
 	"graphics.hpp"
 	<vector>
 
-1684255247 source:d:\2021 prog házi\cpp\amoba\widget.cpp
+1684265519 source:d:\2021 prog házi\cpp\amoba\widget.cpp
 	"widget.hpp"
 
-1684259683 d:\2021 prog házi\cpp\amoba\widget.hpp
+1684262246 d:\2021 prog házi\cpp\amoba\widget.hpp
 	"maistro.hpp"
 	"graphics.hpp"
 	"vector"
@@ -30,15 +33,22 @@
 	<cmath>
 	<math.h>
 
-1684255766 source:d:\2021 prog házi\cpp\amoba\gomb.cpp
+1684265422 source:d:\2021 prog házi\cpp\amoba\gomb.cpp
 	"gomb.hpp"
 
-1684255878 d:\2021 prog házi\cpp\amoba\gomb.hpp
+1684264575 d:\2021 prog házi\cpp\amoba\gomb.hpp
 	"widget.hpp"
 
-1684258017 source:d:\2021 prog házi\cpp\amoba\mezo.cpp
+1684262365 source:d:\2021 prog házi\cpp\amoba\mezo.cpp
 	"mezo.hpp"
 
-1684257989 d:\2021 prog házi\cpp\amoba\mezo.hpp
+1684262384 d:\2021 prog házi\cpp\amoba\mezo.hpp
 	"widget.hpp"
+
+1684264906 source:d:\2021 prog házi\cpp\amoba\star_menu.cpp
+	"star_menu.hpp"
+
+1684263753 d:\2021 prog házi\cpp\amoba\star_menu.hpp
+	"maistro.hpp"
+	"gomb.hpp"
 

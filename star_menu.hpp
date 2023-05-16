@@ -2,17 +2,14 @@
 #define STAR_MENU_HPP
 
 #include "maistro.hpp"
+#include "gomb.hpp"
 
-
-class star_menu : public maistro
-{
-    public:
-        star_menu();
-        virtual ~star_menu();
-
-    protected:
-
-    private:
+struct star_menu:maistro{
+private:
+    gomb *start_gomb;
+public:
+    star_menu(int,int);
+    void action();
 };
 
 #endif // STAR_MENU_HPP

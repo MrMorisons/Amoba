@@ -9,9 +9,10 @@ using namespace genv;
 
 class gomb :widget{
 protected:
+    bool selected;
     function<void()>f;
 public:
-    gomb(maistro*,int,int,function<void()>);
+    gomb(maistro*,int,int,int,int,string,function<void()>);
     void paint();
     void overlord(event*);
 };

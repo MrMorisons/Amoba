@@ -10,12 +10,13 @@ using namespace genv;
 
 class maistro{
 protected:
+    int xx, yy;
     vector<widget*> widgets;
 public:
-    maistro();
+    maistro(int,int);
     void event_loop();
     void register_widget(widget*);
-    virtual void action(string)=0;
+    virtual void action()=0;
 };
 
 

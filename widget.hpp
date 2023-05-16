@@ -18,11 +18,11 @@ protected:
     bool selected,selected_move;
     string name;
 public:
-    widget(maistro*,int,int,int,int);
-    string get_write(){
+    widget(maistro*,int,int,int,int,string);
+    string get_name(){
         return name;
     }
-    void set_write(string set_write){
+    void set_name(string set_write){
         name=set_write;
     }
     bool is_selected(event*);
