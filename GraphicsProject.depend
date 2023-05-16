@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1684250498 source:d:\2021 prog házi\cpp\amoba\iustitia.cpp
+	"iustitia.hpp"
+
+1684250498 d:\2021 prog házi\cpp\amoba\iustitia.hpp
+
+1684254174 source:d:\2021 prog házi\cpp\amoba\main.cpp
+	"graphics.hpp"
+
+1618178770 d:\2021 prog házi\cpp\amoba\include\graphics.hpp
+	<string>
+	<vector>
+
+1684250466 source:d:\2021 prog házi\cpp\amoba\maistro.cpp
+	"maistro.hpp"
+
+1684250466 d:\2021 prog házi\cpp\amoba\maistro.hpp
+
+1684250447 source:d:\2021 prog házi\cpp\amoba\widget.cpp
+	"widget.hpp"
+
+1684253461 d:\2021 prog házi\cpp\amoba\widget.hpp
+	"graphics.hpp"
+	"vector"
+	"functional"
+	<cmath>
+	<math.h>
+

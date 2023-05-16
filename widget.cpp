@@ -1,11 +1,10 @@
 #include "widget.hpp"
 
-widget::widget()
-{
+widget::widget(int new_x,int new_y,int new_size_x,int new_size_y):x(new_x),y(new_y),size_x(new_size_x),size_y(new_size_y){
     //ctor
 }
 
-widget::~widget()
-{
-    //dtor
+bool widget::is_selected(event *ev){
+      return (x<ev->pos_x and ev->pos_x<size_x and y<ev->pos_y and ev->pos_y<size_y);
 }
+
