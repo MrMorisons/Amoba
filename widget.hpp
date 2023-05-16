@@ -16,14 +16,14 @@ protected:
     maistro* boss;
     int x,y,size_x,size_y;
     bool selected,selected_move;
-    string write;
+    string name;
 public:
     widget(maistro*,int,int,int,int);
     string get_write(){
-        return write;
+        return name;
     }
-    string set_write(string set_write){
-        write=set_write;
+    void set_write(string set_write){
+        name=set_write;
     }
     bool is_selected(event*);
     virtual void paint()=0;

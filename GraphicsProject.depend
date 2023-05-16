@@ -22,11 +22,23 @@
 1684255247 source:d:\2021 prog házi\cpp\amoba\widget.cpp
 	"widget.hpp"
 
-1684255194 d:\2021 prog házi\cpp\amoba\widget.hpp
+1684259683 d:\2021 prog házi\cpp\amoba\widget.hpp
 	"maistro.hpp"
 	"graphics.hpp"
 	"vector"
 	"functional"
 	<cmath>
 	<math.h>
+
+1684255766 source:d:\2021 prog házi\cpp\amoba\gomb.cpp
+	"gomb.hpp"
+
+1684255878 d:\2021 prog házi\cpp\amoba\gomb.hpp
+	"widget.hpp"
+
+1684258017 source:d:\2021 prog házi\cpp\amoba\mezo.cpp
+	"mezo.hpp"
+
+1684257989 d:\2021 prog házi\cpp\amoba\mezo.hpp
+	"widget.hpp"
 
