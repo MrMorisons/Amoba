@@ -14,6 +14,10 @@ void gomb::paint(){
     }
 }
 
+bool gomb::is_selected(event *ev){
+      return (x-(size_x/2)<ev->pos_x and ev->pos_x<x+(size_x/2) and y-(size_y/2)<ev->pos_y and ev->pos_y<y+(size_y/2) and ev->button==btn_left);
+}
+
 void gomb::overlord(event *ev){
     if(is_selected(ev)){
         selected=true;

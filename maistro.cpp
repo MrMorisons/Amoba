@@ -1,6 +1,6 @@
 #include "maistro.hpp"
 #include "widget.hpp"
-
+#include "iostream"
 
 maistro::maistro(int new_xx,int new_yy):xx(new_xx),yy(new_yy)
 {
@@ -11,7 +11,7 @@ void maistro::event_loop(){
         event ev;
         int focus = -1;
         while(gin >> ev ) {
-            if (ev.type == ev_mouse && ev.button==btn_left) {
+            if (ev.type == ev_mouse and ev.button==btn_left) {
                 for (size_t i=0;i<widgets.size();i++) {
                     if (widgets[i]->is_selected(&ev)) {
                             focus = i;

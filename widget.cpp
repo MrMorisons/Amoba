@@ -6,6 +6,6 @@ widget::widget(maistro* new_boss,int new_x,int new_y,int new_size_x,int new_size
 }
 
 bool widget::is_selected(event *ev){
-      return (ev->type==ev_mouse and x<ev->pos_x and ev->pos_x<size_x and y<ev->pos_y and ev->pos_y<size_y);
+      return (x-(size_x/2)<ev->pos_x and ev->pos_x<x+(size_x/2) and y-(size_y/2)<ev->pos_y and ev->pos_y<y+(size_y/2));
 }
 

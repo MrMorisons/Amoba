@@ -14,6 +14,7 @@ protected:
 public:
     gomb(maistro*,int,int,int,int,string,function<void()>);
     void paint();
+    bool is_selected(event*);
     void overlord(event*);
 };
 
