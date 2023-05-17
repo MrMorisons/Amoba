@@ -4,12 +4,13 @@
 
 1684250498 d:\2021 prog házi\cpp\amoba\iustitia.hpp
 
-1684321578 source:d:\2021 prog házi\cpp\amoba\main.cpp
+1684323336 source:d:\2021 prog házi\cpp\amoba\main.cpp
 	"graphics.hpp"
 	"widget.hpp"
 	"maistro.hpp"
 	"star_menu.hpp"
 	"game_play.hpp"
+	"game_over.hpp"
 
 1618178770 d:\2021 prog házi\cpp\amoba\include\graphics.hpp
 	<string>
@@ -47,17 +48,24 @@
 1684262384 d:\2021 prog házi\cpp\amoba\mezo.hpp
 	"widget.hpp"
 
-1684264906 source:d:\2021 prog házi\cpp\amoba\star_menu.cpp
+1684322644 source:d:\2021 prog házi\cpp\amoba\star_menu.cpp
 	"star_menu.hpp"
 
 1684263753 d:\2021 prog házi\cpp\amoba\star_menu.hpp
 	"maistro.hpp"
 	"gomb.hpp"
 
-1684321408 source:d:\2021 prog házi\cpp\amoba\game_play.cpp
+1684322165 source:d:\2021 prog házi\cpp\amoba\game_play.cpp
 	"game_play.hpp"
 
 1684322108 d:\2021 prog házi\cpp\amoba\game_play.hpp
 	"maistro.hpp"
 	"mezo.hpp"
+
+1684323345 source:d:\2021 prog házi\cpp\amoba\game_over.cpp
+	"game_over.hpp"
+
+1684323365 d:\2021 prog házi\cpp\amoba\game_over.hpp
+	"maistro.hpp"
+	"gomb.hpp"
 

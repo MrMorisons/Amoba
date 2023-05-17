@@ -3,6 +3,7 @@
 #include "maistro.hpp"
 #include "star_menu.hpp"
 #include "game_play.hpp"
+#include "game_over.hpp"
 
 using namespace genv;
 
@@ -12,7 +13,7 @@ const int yy=800;
 int main()
 {
     gout.open(xx,yy);
-    game_play teszt(xx,yy,9);
+    game_over teszt(xx,yy);
     gout << refresh;
     teszt.event_loop();
     return 0;
