@@ -2,6 +2,7 @@
 #define MAISTRO_HPP
 
 class widget;
+#include "application.hpp"
 #include "graphics.hpp"
 #include <vector>
 
@@ -10,13 +11,17 @@ using namespace genv;
 
 class maistro{
 protected:
+    application *boss;
     int xx, yy;
+    bool selected=false;
     vector<widget*> widgets;
 public:
-    maistro(int,int);
+    maistro(application*,int,int);
     void event_loop();
     void register_widget(widget*);
-    virtual void action()=0;
+    void set_selected(bool);
+    bool is_selected();
+    virtual bool action()=0;
 };
 
 

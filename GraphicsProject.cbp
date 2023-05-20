@@ -53,6 +53,12 @@
 			<Add library="dxguid" />
 			<Add directory="lib" />
 		</Linker>
+		<Unit filename="application.cpp" />
+		<Unit filename="application.hpp" />
+		<Unit filename="game_over.cpp" />
+		<Unit filename="game_over.hpp" />
+		<Unit filename="game_play.cpp" />
+		<Unit filename="game_play.hpp" />
 		<Unit filename="gomb.cpp" />
 		<Unit filename="gomb.hpp" />
 		<Unit filename="iustitia.cpp" />

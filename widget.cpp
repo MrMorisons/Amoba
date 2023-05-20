@@ -1,4 +1,5 @@
 #include "widget.hpp"
+#include "iostream"
 
 widget::widget(maistro* new_boss,int new_x,int new_y,int new_size_x,int new_size_y,std::string new_name)
             :boss(new_boss),x(new_x),y(new_y),size_x(new_size_x),size_y(new_size_y),name(new_name){

@@ -10,8 +10,8 @@ protected:
     int mezoszam;
     int szegej=60;
 public:
-    game_play(int,int,int);
-    void action();
+    game_play(application*,int,int,int);
+    bool action();
 };
 
 #endif // GAME_PLAY_HPP

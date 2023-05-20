@@ -4,29 +4,27 @@
 
 1684250498 d:\2021 prog házi\cpp\amoba\iustitia.hpp
 
-1684323336 source:d:\2021 prog házi\cpp\amoba\main.cpp
+1684512353 source:d:\2021 prog házi\cpp\amoba\main.cpp
 	"graphics.hpp"
-	"widget.hpp"
-	"maistro.hpp"
-	"star_menu.hpp"
-	"game_play.hpp"
-	"game_over.hpp"
+	"application.hpp"
 
 1618178770 d:\2021 prog házi\cpp\amoba\include\graphics.hpp
 	<string>
 	<vector>
 
-1684319727 source:d:\2021 prog házi\cpp\amoba\maistro.cpp
+1684583280 source:d:\2021 prog házi\cpp\amoba\maistro.cpp
 	"maistro.hpp"
 	"widget.hpp"
 	"iostream"
 
-1684263432 d:\2021 prog házi\cpp\amoba\maistro.hpp
+1684583399 d:\2021 prog házi\cpp\amoba\maistro.hpp
+	"application.hpp"
 	"graphics.hpp"
 	<vector>
 
-1684321558 source:d:\2021 prog házi\cpp\amoba\widget.cpp
+1684509765 source:d:\2021 prog házi\cpp\amoba\widget.cpp
 	"widget.hpp"
+	"iostream"
 
 1684262246 d:\2021 prog házi\cpp\amoba\widget.hpp
 	"maistro.hpp"
@@ -36,7 +34,7 @@
 	<cmath>
 	<math.h>
 
-1684319765 source:d:\2021 prog házi\cpp\amoba\gomb.cpp
+1684510339 source:d:\2021 prog házi\cpp\amoba\gomb.cpp
 	"gomb.hpp"
 
 1684319728 d:\2021 prog házi\cpp\amoba\gomb.hpp
@@ -48,24 +46,37 @@
 1684262384 d:\2021 prog házi\cpp\amoba\mezo.hpp
 	"widget.hpp"
 
-1684322644 source:d:\2021 prog házi\cpp\amoba\star_menu.cpp
+1684583195 source:d:\2021 prog házi\cpp\amoba\star_menu.cpp
 	"star_menu.hpp"
+	"iostream"
 
-1684263753 d:\2021 prog házi\cpp\amoba\star_menu.hpp
+1684517993 d:\2021 prog házi\cpp\amoba\star_menu.hpp
 	"maistro.hpp"
 	"gomb.hpp"
 
-1684322165 source:d:\2021 prog házi\cpp\amoba\game_play.cpp
+1684517993 source:d:\2021 prog házi\cpp\amoba\game_play.cpp
 	"game_play.hpp"
 
-1684322108 d:\2021 prog házi\cpp\amoba\game_play.hpp
+1684517999 d:\2021 prog házi\cpp\amoba\game_play.hpp
 	"maistro.hpp"
 	"mezo.hpp"
 
-1684323345 source:d:\2021 prog házi\cpp\amoba\game_over.cpp
+1684521428 source:d:\2021 prog házi\cpp\amoba\game_over.cpp
 	"game_over.hpp"
 
-1684323365 d:\2021 prog házi\cpp\amoba\game_over.hpp
+1684517993 d:\2021 prog házi\cpp\amoba\game_over.hpp
 	"maistro.hpp"
 	"gomb.hpp"
+
+1684583855 source:d:\2021 prog házi\cpp\amoba\application.cpp
+	"application.hpp"
+	"maistro.hpp"
+	"star_menu.hpp"
+	"game_play.hpp"
+	"game_over.hpp"
+	"iostream"
+
+1684508986 d:\2021 prog házi\cpp\amoba\application.hpp
+	<vector>
+	"graphics.hpp"
 
