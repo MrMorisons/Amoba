@@ -7,6 +7,18 @@ iustitia::iustitia(application* new_boss):boss(new_boss){
 
 }
 
+void iustitia::menaging(){
+    if(game_part_number==0){
+
+    }
+    if(game_part_number==1){
+
+    }
+    if(game_part_number==2){
+
+    }
+}
+
 void iustitia::set_active(){
     active=true;
 }

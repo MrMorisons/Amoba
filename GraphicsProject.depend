@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1684703523 source:d:\2021 prog házi\cpp\amoba\iustitia.cpp
+1684709472 source:d:\2021 prog házi\cpp\amoba\iustitia.cpp
 	"iustitia.hpp"
 	"application.hpp"
 	"maistro.hpp"
 	"widget.hpp"
 
-1684703518 d:\2021 prog házi\cpp\amoba\iustitia.hpp
+1684704660 d:\2021 prog házi\cpp\amoba\iustitia.hpp
 	<vector>
 	"graphics.hpp"
 
@@ -17,7 +17,7 @@
 	<string>
 	<vector>
 
-1684696086 source:d:\2021 prog házi\cpp\amoba\maistro.cpp
+1684703548 source:d:\2021 prog házi\cpp\amoba\maistro.cpp
 	"maistro.hpp"
 	"widget.hpp"
 	"iostream"

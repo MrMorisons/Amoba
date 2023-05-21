@@ -19,7 +19,8 @@ class iustitia
         vector<widget*> ures_mezo;
         vector<widget*> ures_O;
         vector<widget*> ures_X;
-        int mezoszam,xx,yy;
+        int mezoszam,xx,yy,game_part_number;
+        bool X_turn=false;
         bool active=false;
         //event *ev;
     public:
@@ -27,6 +28,7 @@ class iustitia
         vector<widget*> get_ures_mezo(vector<widget*>);
         void set_active();
         bool get_active();
+        void menaging();
 };
 
 #endif // IUSTITIA_HPP
