@@ -5,12 +5,16 @@
 maistro::maistro(application *new_boss,int new_xx,int new_yy):boss(new_boss),xx(new_xx),yy(new_yy)
 {
     boss->register_maistro(this);
+    judge->get_ures_mezo(widgets);
 }
 
 void maistro::event_loop(){
         event ev;
         int focus = -1;
         while(gin >> ev and selected) {
+            if (judge->get_active()){
+                judge->set_active();
+            }
             if (ev.type == ev_mouse and ev.button==btn_left) {
                 for (size_t i=0;i<widgets.size();i++) {
                     if (widgets[i]->is_selected(&ev)) {
@@ -29,6 +33,10 @@ void maistro::event_loop(){
             }
             gout << refresh;
         }
+}
+
+vector<widget*> maistro::ret_widgets(){
+    return widgets;
 }
 
 void maistro::set_selected(bool k){

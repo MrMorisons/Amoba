@@ -3,6 +3,7 @@
 
 class widget;
 #include "application.hpp"
+#include "iustitia.hpp"
 #include "graphics.hpp"
 #include <vector>
 
@@ -12,11 +13,13 @@ using namespace genv;
 class maistro{
 protected:
     application *boss;
+    iustitia *judge;
     int xx, yy;
     bool selected=false;
     vector<widget*> widgets;
 public:
     maistro(application*,int,int);
+    vector<widget*> ret_widgets();
     void event_loop();
     void register_widget(widget*);
     void set_selected(bool);

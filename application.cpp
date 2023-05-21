@@ -1,5 +1,6 @@
 #include "application.hpp"
 #include "maistro.hpp"
+#include "iustitia.hpp"
 #include "star_menu.hpp"
 #include "game_play.hpp"
 #include "game_over.hpp"
@@ -10,6 +11,7 @@ application::application(int xx,int yy)
     star_menu* start = new star_menu(this,xx,yy);
     game_play* game = new game_play(this,xx,yy,13);
     game_over* over = new game_over(this,xx,yy);
+    iustitia k(this);
 }
 
 void application::run(){

@@ -1,8 +1,13 @@
 # depslib dependency file v1.0
-1684250498 source:d:\2021 prog házi\cpp\amoba\iustitia.cpp
+1684703523 source:d:\2021 prog házi\cpp\amoba\iustitia.cpp
 	"iustitia.hpp"
+	"application.hpp"
+	"maistro.hpp"
+	"widget.hpp"
 
-1684250498 d:\2021 prog házi\cpp\amoba\iustitia.hpp
+1684703518 d:\2021 prog házi\cpp\amoba\iustitia.hpp
+	<vector>
+	"graphics.hpp"
 
 1684512353 source:d:\2021 prog házi\cpp\amoba\main.cpp
 	"graphics.hpp"
@@ -12,13 +17,14 @@
 	<string>
 	<vector>
 
-1684583280 source:d:\2021 prog házi\cpp\amoba\maistro.cpp
+1684696086 source:d:\2021 prog házi\cpp\amoba\maistro.cpp
 	"maistro.hpp"
 	"widget.hpp"
 	"iostream"
 
-1684583399 d:\2021 prog házi\cpp\amoba\maistro.hpp
+1684697396 d:\2021 prog házi\cpp\amoba\maistro.hpp
 	"application.hpp"
+	"iustitia.hpp"
 	"graphics.hpp"
 	<vector>
 
@@ -54,10 +60,10 @@
 	"maistro.hpp"
 	"gomb.hpp"
 
-1684517993 source:d:\2021 prog házi\cpp\amoba\game_play.cpp
+1684696026 source:d:\2021 prog házi\cpp\amoba\game_play.cpp
 	"game_play.hpp"
 
-1684517999 d:\2021 prog házi\cpp\amoba\game_play.hpp
+1684696026 d:\2021 prog házi\cpp\amoba\game_play.hpp
 	"maistro.hpp"
 	"mezo.hpp"
 
@@ -68,15 +74,17 @@
 	"maistro.hpp"
 	"gomb.hpp"
 
-1684583855 source:d:\2021 prog házi\cpp\amoba\application.cpp
+1684696910 source:d:\2021 prog házi\cpp\amoba\application.cpp
 	"application.hpp"
 	"maistro.hpp"
+	"iustitia.hpp"
 	"star_menu.hpp"
 	"game_play.hpp"
 	"game_over.hpp"
 	"iostream"
 
-1684508986 d:\2021 prog házi\cpp\amoba\application.hpp
+1684695106 d:\2021 prog házi\cpp\amoba\application.hpp
+	"iustitia.hpp"
 	<vector>
 	"graphics.hpp"
 

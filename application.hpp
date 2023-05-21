@@ -2,6 +2,7 @@
 #define APPLICATION_HPP
 
 class maistro;
+#include "iustitia.hpp"
 #include <vector>
 #include "graphics.hpp"
 
@@ -11,6 +12,7 @@ using namespace genv;
 class application{
 protected:
     vector<maistro*> game_parts;
+    //iustitia k();
 public:
     application(int,int);
     void run();
