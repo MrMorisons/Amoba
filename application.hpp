@@ -12,7 +12,7 @@ using namespace genv;
 class application{
 protected:
     vector<maistro*> game_parts;
-    //iustitia k();
+    iustitia *kru;
 public:
     application(int,int);
     void run();

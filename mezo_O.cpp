@@ -1,9 +1,8 @@
 #include "mezo_O.hpp"
 
-/*mezo_O::mezo_O()
-{
-    //ctor
-}*/
+mezo_O::mezo_O(maistro* new_boss,widget *original): widget(new_boss,original->get_x(),original->get_y(),original->get_size_x(),original->get_size_y(),original->get_name()){
+
+}
 
 void mezo_O::paint(){
     gout << move_to(x, y) << color(255,255,255) << box(size_x, size_y);
@@ -16,4 +15,8 @@ void mezo_O::paint(){
                 }
             }
         }
+}
+
+void mezo_O::overlord(event* ev){
+    paint();
 }

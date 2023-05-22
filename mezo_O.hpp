@@ -1,13 +1,15 @@
 #ifndef MEZO_O_HPP
 #define MEZO_O_HPP
 
-#include "mezo.hpp"
+#include "widget.hpp"
 
 
-class mezo_O : public mezo
+struct mezo_O :widget
 {
 public:
+    mezo_O(maistro*,widget*);
     void paint();
+    void overlord(event*);
 };
 
 #endif // MEZO_O_HPP

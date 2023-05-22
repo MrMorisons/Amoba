@@ -12,7 +12,7 @@ public:
     mezo(maistro*,int x, int y, int sx, int sy,std::string);
     virtual void paint() ;
     virtual void overlord(genv::event *ev);
-    virtual bool is_checked() ;
+    bool is_checked();
 };
 
 

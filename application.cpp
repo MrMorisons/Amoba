@@ -8,17 +8,20 @@
 
 application::application(int xx,int yy)
 {
-    star_menu* start = new star_menu(this,xx,yy);
-    game_play* game = new game_play(this,xx,yy,13);
-    game_over* over = new game_over(this,xx,yy);
-    iustitia k(this);
+    kru = new iustitia(this);
+    star_menu* start = new star_menu(this,kru,xx,yy);
+    game_play* game = new game_play(this,kru,xx,yy,kru->get_mezoszam());
+    game_over* over = new game_over(this,kru,xx,yy);
 }
 
 void application::run(){
-    int i=2;
+    int i=0;
         while(true){
             cout<<i<<endl;
             game_parts[i]->set_selected(true);
+            kru->set_game_part_number(i);
+            kru->set_ures_mezo(game_parts[i]->ret_widgets());
+            cout<<"hello"<<endl;
             game_parts[i]->event_loop();
             if(game_parts[i]->is_selected()==false){
                 i++;

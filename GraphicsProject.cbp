@@ -68,6 +68,10 @@
 		<Unit filename="maistro.hpp" />
 		<Unit filename="mezo.cpp" />
 		<Unit filename="mezo.hpp" />
+		<Unit filename="mezo_O.cpp" />
+		<Unit filename="mezo_O.hpp" />
+		<Unit filename="mezo_X.cpp" />
+		<Unit filename="mezo_X.hpp" />
 		<Unit filename="star_menu.cpp" />
 		<Unit filename="star_menu.hpp" />
 		<Unit filename="widget.cpp" />

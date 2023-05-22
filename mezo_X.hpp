@@ -4,10 +4,12 @@
 #include "mezo.hpp"
 
 
-class mezo_X : public mezo
+struct mezo_X:widget
 {
 public:
+    mezo_X(maistro*,widget*);
     void paint();
+    void overlord(event*);
 };
 
 #endif // MEZO_X_HPP

@@ -1,38 +1,45 @@
 # depslib dependency file v1.0
-1684709472 source:d:\2021 prog házi\cpp\amoba\iustitia.cpp
+1684738214 source:d:\2021 prog házi\cpp\amoba\iustitia.cpp
 	"iustitia.hpp"
 	"application.hpp"
 	"maistro.hpp"
 	"widget.hpp"
+	"mezo.hpp"
+	"mezo_O.hpp"
+	"mezo_X.hpp"
+	"iostream"
 
-1684704660 d:\2021 prog házi\cpp\amoba\iustitia.hpp
+1684735395 d:\2021 prog házi\cpp\amoba\iustitia.hpp
 	<vector>
 	"graphics.hpp"
 
-1684512353 source:d:\2021 prog házi\cpp\amoba\main.cpp
+1684714068 source:d:\2021 prog házi\cpp\amoba\main.cpp
 	"graphics.hpp"
 	"application.hpp"
+	"iostream"
 
 1618178770 d:\2021 prog házi\cpp\amoba\include\graphics.hpp
 	<string>
 	<vector>
 
-1684703548 source:d:\2021 prog házi\cpp\amoba\maistro.cpp
+1684732215 source:d:\2021 prog házi\cpp\amoba\maistro.cpp
 	"maistro.hpp"
 	"widget.hpp"
+	"mezo_X.hpp"
+	"mezo_O.hpp"
 	"iostream"
 
-1684697396 d:\2021 prog házi\cpp\amoba\maistro.hpp
+1684738344 d:\2021 prog házi\cpp\amoba\maistro.hpp
 	"application.hpp"
 	"iustitia.hpp"
 	"graphics.hpp"
 	<vector>
 
-1684509765 source:d:\2021 prog házi\cpp\amoba\widget.cpp
+1684724610 source:d:\2021 prog házi\cpp\amoba\widget.cpp
 	"widget.hpp"
 	"iostream"
 
-1684262246 d:\2021 prog házi\cpp\amoba\widget.hpp
+1684725770 d:\2021 prog házi\cpp\amoba\widget.hpp
 	"maistro.hpp"
 	"graphics.hpp"
 	"vector"
@@ -46,35 +53,37 @@
 1684319728 d:\2021 prog házi\cpp\amoba\gomb.hpp
 	"widget.hpp"
 
-1684262365 source:d:\2021 prog házi\cpp\amoba\mezo.cpp
+1684722142 source:d:\2021 prog házi\cpp\amoba\mezo.cpp
 	"mezo.hpp"
 
-1684262384 d:\2021 prog házi\cpp\amoba\mezo.hpp
+1684721947 d:\2021 prog házi\cpp\amoba\mezo.hpp
 	"widget.hpp"
 
-1684583195 source:d:\2021 prog házi\cpp\amoba\star_menu.cpp
+1684738315 source:d:\2021 prog házi\cpp\amoba\star_menu.cpp
 	"star_menu.hpp"
 	"iostream"
 
-1684517993 d:\2021 prog házi\cpp\amoba\star_menu.hpp
+1684738315 d:\2021 prog házi\cpp\amoba\star_menu.hpp
 	"maistro.hpp"
 	"gomb.hpp"
+	"szambealito.hpp"
 
-1684696026 source:d:\2021 prog házi\cpp\amoba\game_play.cpp
+1684738147 source:d:\2021 prog házi\cpp\amoba\game_play.cpp
 	"game_play.hpp"
 
-1684696026 d:\2021 prog házi\cpp\amoba\game_play.hpp
+1684738119 d:\2021 prog házi\cpp\amoba\game_play.hpp
 	"maistro.hpp"
 	"mezo.hpp"
+	"mezo_X.hpp"
 
-1684521428 source:d:\2021 prog házi\cpp\amoba\game_over.cpp
+1684738315 source:d:\2021 prog házi\cpp\amoba\game_over.cpp
 	"game_over.hpp"
 
-1684517993 d:\2021 prog házi\cpp\amoba\game_over.hpp
+1684738315 d:\2021 prog házi\cpp\amoba\game_over.hpp
 	"maistro.hpp"
 	"gomb.hpp"
 
-1684696910 source:d:\2021 prog házi\cpp\amoba\application.cpp
+1684736859 source:d:\2021 prog házi\cpp\amoba\application.cpp
 	"application.hpp"
 	"maistro.hpp"
 	"iustitia.hpp"
@@ -83,8 +92,27 @@
 	"game_over.hpp"
 	"iostream"
 
-1684695106 d:\2021 prog házi\cpp\amoba\application.hpp
+1684715385 d:\2021 prog házi\cpp\amoba\application.hpp
 	"iustitia.hpp"
 	<vector>
 	"graphics.hpp"
+
+1684734965 source:d:\2021 prog házi\cpp\amoba\mezo_o.cpp
+	"mezo_O.hpp"
+
+1684734965 d:\2021 prog házi\cpp\amoba\mezo_o.hpp
+	"widget.hpp"
+
+1684734965 source:d:\2021 prog házi\cpp\amoba\mezo_x.cpp
+	"mezo_X.hpp"
+
+1684734965 d:\2021 prog házi\cpp\amoba\mezo_x.hpp
+	"mezo.hpp"
+
+1684737260 d:\2021 prog házi\cpp\amoba\szambealito.hpp
+	"widget.hpp"
+	"gomb.hpp"
+
+1684737260 source:d:\2021 prog házi\cpp\amoba\szambealito.cpp
+	"szambealito.hpp"
 

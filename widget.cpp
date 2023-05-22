@@ -10,3 +10,16 @@ bool widget::is_selected(event *ev){
       return (x<ev->pos_x and ev->pos_x<x+size_x and y<ev->pos_y and ev->pos_y<y+size_y);
 }
 
+int widget::get_x(){
+    return x;
+}
+int widget::get_y(){
+    return y;
+}
+int widget::get_size_x(){
+    return size_x;
+}
+int widget::get_size_y(){
+    return size_y;
+}
+
